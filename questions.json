@@ -1,0 +1,488 @@
+{
+    "html": {
+      "easy": [
+        {
+          "question": "What does HTML stand for?",
+          "options": [
+            "Hyper Text Markup Language",
+            "High Text Machine Language",
+            "Hyperlink Text Machine Language",
+            "Hyper Tool Markup Language"
+          ],
+          "correct": "Hyper Text Markup Language"
+        },
+        {
+          "question": "Which HTML tag is used for the largest heading?",
+          "options": [
+            "<h1>", "<h6>", "<heading>", "<head>"
+          ],
+          "correct": "<h1>"
+        },
+        {
+          "question": "Which attribute specifies the URL for a link?",
+          "options": ["href", "src", "alt", "link"],
+          "correct": "href"
+        },
+        {
+          "question": "What is the correct way to make a text bold in HTML?",
+          "options": ["<b>", "<strong>", "<bold>", "<em>"],
+          "correct": "<b>"
+        },
+        {
+          "question": "Which element is used to create a line break?",
+          "options": ["<br>", "<lb>", "<break>", "<newline>"],
+          "correct": "<br>"
+        },
+        {
+          "question": "What does the <title> tag define in an HTML document?",
+          "options": ["Title in browser tab", "Main heading", "Subheading", "Page body"],
+          "correct": "Title in browser tab"
+        },
+        {
+          "question": "Which tag is used to create a hyperlink?",
+          "options": ["<a>", "<link>", "<href>", "<url>"],
+          "correct": "<a>"
+        },
+        {
+          "question": "Which attribute is used to uniquely identify an element?",
+          "options": ["id", "class", "style", "key"],
+          "correct": "id"
+        },
+        {
+          "question": "What is the default file extension for an HTML file?",
+          "options": [".html", ".htm", ".xml", ".txt"],
+          "correct": ".html"
+        },
+        {
+          "question": "Which tag is used to display an image?",
+          "options": ["<img>", "<picture>", "<image>", "<src>"],
+          "correct": "<img>"
+        }
+      ],
+     "medium": [  
+  {  
+    "question": "Which attribute specifies an alternate text for an image, if the image cannot be displayed?",  
+    "options": ["alt", "src", "href", "title"],  
+    "correct": "alt"  
+  },  
+  {  
+    "question": "Which element is used to group block elements in an HTML document?",  
+    "options": ["<div>", "<span>", "<group>", "<section>"],  
+    "correct": "<div>"  
+  },  
+  {  
+    "question": "Which input type is used to create a slider control?",  
+    "options": ["range", "slider", "scroll", "input"],  
+    "correct": "range"  
+  },  
+  {  
+    "question": "Which element is used to represent a navigation link section?",  
+    "options": ["<nav>", "<ul>", "<header>", "<menu>"],  
+    "correct": "<nav>"  
+  },  
+  {  
+    "question": "Which HTML attribute is used to define inline styles?",  
+    "options": ["style", "class", "id", "inline"],  
+    "correct": "style"  
+  },  
+  {  
+    "question": "Which HTML tag is used to define an internal style sheet?",  
+    "options": ["<style>", "<css>", "<script>", "<head>"],  
+    "correct": "<style>"  
+  },  
+  {  
+    "question": "Which attribute is used to specify the relationship between the current document and an external resource in a link tag?",  
+    "options": ["rel", "href", "type", "src"],  
+    "correct": "rel"  
+  },  
+  {  
+    "question": "Which attribute specifies the URL of an external script file in HTML?",  
+    "options": ["src", "href", "script", "url"],  
+    "correct": "src"  
+  },  
+  {  
+    "question": "Which element represents emphasized text in HTML?",  
+    "options": ["<em>", "<strong>", "<b>", "<i>"],  
+    "correct": "<em>"  
+  },  
+  {  
+    "question": "Which attribute is used to specify that an input field must be filled out before submitting a form?",  
+    "options": ["required", "placeholder", "value", "name"],  
+    "correct": "required"  
+  }  
+]
+,
+      "hard": [
+  {
+    "question": "Which HTML5 element is used to specify a footer for a document or a section?",
+    "options": ["<footer>", "<section>", "<aside>", "<div>"],
+    "correct": "<footer>"
+  },
+  {
+    "question": "What does the 'contenteditable' attribute do?",
+    "options": ["Makes content editable", "Hides content", "Adds a tooltip", "Changes content color"],
+    "correct": "Makes content editable"
+  },
+  {
+    "question": "Which element defines navigation for a website?",
+    "options": ["<nav>", "<main>", "<section>", "<menu>"],
+    "correct": "<nav>"
+  },
+  {
+    "question": "Which element is used to group table rows in HTML?",
+    "options": ["<tbody>", "<tr>", "<tfoot>", "<thead>"],
+    "correct": "<tbody>"
+  },
+  {
+    "question": "Which attribute specifies that an input field should have focus automatically when the page loads?",
+    "options": ["autofocus", "required", "placeholder", "autocomplete"],
+    "correct": "autofocus"
+  },
+  {
+    "question": "Which input type is used for selecting a color in HTML5?",
+    "options": ["color", "date", "range", "text"],
+    "correct": "color"
+  },
+  {
+    "question": "Which attribute specifies the character encoding for an HTML document?",
+    "options": ["charset", "lang", "meta", "encoding"],
+    "correct": "charset"
+  },
+  {
+    "question": "What does the 'preload' attribute in the <audio> or <video> tag specify?",
+    "options": ["Load metadata", "Load entire file", "Load nothing", "Load subtitles"],
+    "correct": "Load metadata"
+  },
+  {
+    "question": "Which HTML5 element is used to specify content aside from the main content?",
+    "options": ["<aside>", "<footer>", "<nav>", "<section>"],
+    "correct": "<aside>"
+  },
+  {
+    "question": "Which attribute is used to specify a unique identifier for an HTML element?",
+    "options": ["id", "class", "name", "style"],
+    "correct": "id"
+  }
+]
+
+    },
+   "css": {
+  "easy": [
+    {
+      "question": "Which property is used to change the background color of an element?",
+      "options": ["background-color", "color", "bgcolor", "background"],
+      "correct": "background-color"
+    },
+    {
+      "question": "Which property controls the text color of an element?",
+      "options": ["color", "font-color", "text-color", "text-style"],
+      "correct": "color"
+    },
+    {
+      "question": "Which property sets the font size of an element?",
+      "options": ["font-size", "text-size", "size", "font"],
+      "correct": "font-size"
+    },
+    {
+      "question": "Which property is used to set the width of an element?",
+      "options": ["width", "height", "margin", "padding"],
+      "correct": "width"
+    },
+    {
+      "question": "Which property adds a shadow to text?",
+      "options": ["text-shadow", "box-shadow", "shadow", "text-style"],
+      "correct": "text-shadow"
+    },
+    {
+      "question": "Which property is used to change the style of the font?",
+      "options": ["font-style", "font-weight", "text-style", "font-size"],
+      "correct": "font-style"
+    },
+    {
+      "question": "Which property sets the distance between lines of text?",
+      "options": ["line-height", "letter-spacing", "text-spacing", "height"],
+      "correct": "line-height"
+    },
+    {
+      "question": "Which property sets the space between words?",
+      "options": ["word-spacing", "letter-spacing", "padding", "spacing"],
+      "correct": "word-spacing"
+    },
+    {
+      "question": "Which property controls the visibility of an element?",
+      "options": ["visibility", "display", "opacity", "hide"],
+      "correct": "visibility"
+    },
+    {
+      "question": "Which property is used to set the outer margin of an element?",
+      "options": ["margin", "padding", "border", "spacing"],
+      "correct": "margin"
+    }
+  ],
+  "medium": [
+    {
+      "question": "What is the correct syntax to select a class named 'container'?",
+      "options": [".container", "#container", "*container", "container"],
+      "correct": ".container"
+    },
+    {
+      "question": "Which property is used to add space inside an element's border?",
+      "options": ["padding", "margin", "border", "spacing"],
+      "correct": "padding"
+    },
+    {
+      "question": "Which property specifies the space between letters?",
+      "options": ["letter-spacing", "word-spacing", "line-height", "font-size"],
+      "correct": "letter-spacing"
+    },
+    {
+      "question": "Which property specifies the alignment of text within an element?",
+      "options": ["text-align", "vertical-align", "align-content", "align-items"],
+      "correct": "text-align"
+    },
+    {
+      "question": "Which selector is used to select elements with a specific ID?",
+      "options": ["#", ".", "*", "[]"],
+      "correct": "#"
+    },
+    {
+      "question": "Which property is used to create rounded corners?",
+      "options": ["border-radius", "border-corner", "corner-radius", "border"],
+      "correct": "border-radius"
+    },
+    {
+      "question": "Which property specifies whether the content of an element is scrollable?",
+      "options": ["overflow", "scroll", "visible", "clip"],
+      "correct": "overflow"
+    },
+    {
+      "question": "Which property specifies the position of an element?",
+      "options": ["position", "top", "left", "display"],
+      "correct": "position"
+    },
+    {
+      "question": "Which pseudo-class is used to style an element when the mouse hovers over it?",
+      "options": [":hover", ":focus", ":visited", ":active"],
+      "correct": ":hover"
+    },
+    {
+      "question": "Which property is used to align items inside a flex container?",
+      "options": ["justify-content", "align-items", "flex-grow", "order"],
+      "correct": "justify-content"
+    }
+  ],
+  "hard": [
+    {
+      "question": "Which pseudo-class selects an element when it gets focus?",
+      "options": [":focus", ":hover", ":visited", ":active"],
+      "correct": ":focus"
+    },
+    {
+      "question": "Which property is used to make a flex container?",
+      "options": ["display: flex", "flex-wrap", "justify-content", "align-items"],
+      "correct": "display: flex"
+    },
+    {
+      "question": "Which property specifies the stacking order of elements?",
+      "options": ["z-index", "order", "display", "stack"],
+      "correct": "z-index"
+    },
+    {
+      "question": "Which property specifies how a background image is positioned?",
+      "options": ["background-position", "background-align", "position", "background-repeat"],
+      "correct": "background-position"
+    },
+    {
+      "question": "Which value of the 'position' property will position an element relative to its nearest positioned ancestor?",
+      "options": ["absolute", "fixed", "relative", "static"],
+      "correct": "absolute"
+    },
+    {
+      "question": "Which property specifies whether an element should float to the left, right, or not at all?",
+      "options": ["float", "clear", "position", "display"],
+      "correct": "float"
+    },
+    {
+      "question": "Which property specifies the behavior of the flex items when there is not enough space on one line?",
+      "options": ["flex-wrap", "flex-direction", "justify-content", "align-items"],
+      "correct": "flex-wrap"
+    },
+    {
+      "question": "Which pseudo-element is used to add content before an element?",
+      "options": ["::before", "::after", ":hover", ":focus"],
+      "correct": "::before"
+    },
+    {
+      "question": "Which property specifies the transition effect for an element?",
+      "options": ["transition", "animation", "transform", "effect"],
+      "correct": "transition"
+    },
+    {
+      "question": "Which value of the 'display' property makes an element not appear on the page?",
+      "options": ["none", "hidden", "invisible", "block"],
+      "correct": "none"
+    }
+  ]
+}
+,
+    "javascript": {
+  "easy": [
+    {
+      "question": "What is the correct syntax to print a message in the console?",
+      "options": ["console.log('message')", "print('message')", "echo('message')", "log.console('message')"],
+      "correct": "console.log('message')"
+    },
+    {
+      "question": "Which operator is used to assign a value to a variable?",
+      "options": ["=", "==", "===", ":="],
+      "correct": "="
+    },
+    {
+      "question": "Which keyword is used to declare a variable in modern JavaScript?",
+      "options": ["let", "var", "int", "set"],
+      "correct": "let"
+    },
+    {
+      "question": "Which function is used to display an alert box in JavaScript?",
+      "options": ["alert()", "popup()", "msg()", "message()"],
+      "correct": "alert()"
+    },
+    {
+      "question": "Which symbol is used for comments in JavaScript?",
+      "options": ["//", "/* */", "#", "<!-- -->"],
+      "correct": "//"
+    },
+    {
+      "question": "Which method adds an element to the end of an array?",
+      "options": ["push()", "pop()", "shift()", "unshift()"],
+      "correct": "push()"
+    },
+    {
+      "question": "What is the output of 2 + '2' in JavaScript?",
+      "options": ["'22'", "4", "NaN", "'4'"],
+      "correct": "'22'"
+    },
+    {
+      "question": "Which method converts a string to an integer?",
+      "options": ["parseInt()", "parseFloat()", "toString()", "Number()"],
+      "correct": "parseInt()"
+    },
+    {
+      "question": "Which operator is used for concatenation in JavaScript?",
+      "options": ["+", "&", ".", ","],
+      "correct": "+"
+    },
+    {
+      "question": "Which keyword is used to declare a constant in JavaScript?",
+      "options": ["const", "let", "var", "define"],
+      "correct": "const"
+    }
+  ],
+  "medium": [
+    {
+      "question": "Which keyword is used to declare a variable in JavaScript?",
+      "options": ["var", "int", "define", "letvar"],
+      "correct": "var"
+    },
+    {
+      "question": "Which method is used to remove the last element from an array?",
+      "options": ["pop()", "push()", "shift()", "splice()"],
+      "correct": "pop()"
+    },
+    {
+      "question": "Which method is used to add elements to the beginning of an array?",
+      "options": ["unshift()", "push()", "pop()", "splice()"],
+      "correct": "unshift()"
+    },
+    {
+      "question": "Which operator is used to check both value and type equality?",
+      "options": ["===", "==", "=", "!=="],
+      "correct": "==="
+    },
+    {
+      "question": "Which method is used to convert a JavaScript object to a JSON string?",
+      "options": ["JSON.stringify()", "JSON.parse()", "toString()", "JSON.convert()"],
+      "correct": "JSON.stringify()"
+    },
+    {
+      "question": "Which function creates a new array by applying a function to each element of an existing array?",
+      "options": ["map()", "forEach()", "filter()", "reduce()"],
+      "correct": "map()"
+    },
+    {
+      "question": "Which method is used to find the length of a string?",
+      "options": ["length", "size()", "count()", "stringLength()"],
+      "correct": "length"
+    },
+    {
+      "question": "Which method is used to stop event propagation?",
+      "options": ["stopPropagation()", "preventDefault()", "stopEvent()", "cancelEvent()"],
+      "correct": "stopPropagation()"
+    },
+    {
+      "question": "Which keyword is used to define a function in JavaScript?",
+      "options": ["function", "def", "lambda", "func"],
+      "correct": "function"
+    },
+    {
+      "question": "Which method converts an array to a string with elements separated by commas?",
+      "options": ["join()", "concat()", "toString()", "slice()"],
+      "correct": "join()"
+    }
+  ],
+  "hard": [
+    {
+      "question": "What will be the result of 'typeof NaN' in JavaScript?",
+      "options": ["'number'", "'NaN'", "'undefined'", "'object'"],
+      "correct": "'number'"
+    },
+    {
+      "question": "What is the correct syntax for creating an immediately invoked function expression (IIFE)?",
+      "options": ["(function() {})()", "function() {}()", "(() function {})", "function() (){}"],
+      "correct": "(function() {})()"
+    },
+    {
+      "question": "Which method returns the first matching element in a DOM structure?",
+      "options": ["querySelector()", "getElementById()", "getElementsByClassName()", "queryAll()"],
+      "correct": "querySelector()"
+    },
+    {
+      "question": "What is the output of '0 == false' in JavaScript?",
+      "options": ["true", "false", "undefined", "NaN"],
+      "correct": "true"
+    },
+    {
+      "question": "Which function is used to delay the execution of a function?",
+      "options": ["setTimeout()", "setInterval()", "delay()", "setDelay()"],
+      "correct": "setTimeout()"
+    },
+    {
+      "question": "Which keyword refers to the current object in JavaScript?",
+      "options": ["this", "self", "object", "that"],
+      "correct": "this"
+    },
+    {
+      "question": "Which method calls a function for each element in an array?",
+      "options": ["forEach()", "map()", "filter()", "reduce()"],
+      "correct": "forEach()"
+    },
+    {
+      "question": "Which keyword declares a block-scoped variable?",
+      "options": ["let", "var", "constant", "define"],
+      "correct": "let"
+    },
+    {
+      "question": "Which function is used to parse a JSON string to a JavaScript object?",
+      "options": ["JSON.parse()", "JSON.stringify()", "JSON.convert()", "parseJSON()"],
+      "correct": "JSON.parse()"
+    },
+    {
+      "question": "Which event is triggered when a user presses a key on the keyboard?",
+      "options": ["keydown", "keypress", "keyup", "onpress"],
+      "correct": "keydown"
+    }
+  ]
+}
+
+  }
+  

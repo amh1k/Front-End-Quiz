@@ -7,9 +7,11 @@ import LandingPage from './Pages/LandingPage'
 import InfoPage from './Pages/InfoPage'
 import QuizPage from './Pages/QuizPage'
 import FinishPage from './Pages/FinishPage'
+import Loading from './Pages/Loading'
+import Error from './Pages/Error'
 
 function App() {
-  const {darkMode, status} = useSelector(state => state.quiz);
+  const {darkMode, status, isLoading, error} = useSelector(state => state.quiz);
   useEffect(() => {
     const bodyElement = document.documentElement;
     if (darkMode) {
@@ -25,11 +27,13 @@ function App() {
 
   return (
     <div>
-      {status == 'startScreen' &&  <LandingPage/>}
-      {status == 'infoScreen' && <InfoPage/>}
-      {status == 'quizScreen' && <QuizPage/>}
-      {status == 'finishScreen' && <FinishPage/>}
-    </div>
+    {error && <Error />}
+    {!error && status === 'startScreen' && !isLoading && <LandingPage />}
+    {!error && status === 'startScreen' && isLoading && <Loading />}
+    {!error && status === 'infoScreen' && <InfoPage />}
+    {!error && status === 'quizScreen' && <QuizPage />}
+    {!error && status === 'finishScreen' && <FinishPage />}
+  </div>
     
   )
 }

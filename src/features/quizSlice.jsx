@@ -14,7 +14,8 @@ const initialState = {
     secondsRemaining: 0,
     answer: null,
     index: 0,
-    type: ""
+    type: "",
+    error: false
 
     
 
@@ -73,7 +74,11 @@ const questionSlice = createSlice({name: 'quiz', initialState, reducers: {
     reset(state) {
         return initialState
 
+    },
+    setError(state) {
+        state.error = true;
     }
+    
 
 
 
@@ -83,22 +88,26 @@ const questionSlice = createSlice({name: 'quiz', initialState, reducers: {
 } })
 
 export function changeType(type) {
-    if (type == "") return;
+    if (type === "") return;
     return async function(dispatch, getState) {
-        
-        dispatch({type:'quiz/setIsLoading', payload:type});
-        const res = await fetch(`${url}${type}`);
-        const data = await res.json();
-       
-        dispatch({type:'quiz/setData', payload: data})
-        
+        dispatch({type: 'quiz/setIsLoading', payload: type});  // Using the action directly instead of hardcoded action types
 
-
-
+        try {
+            const res = await fetch(`${url}${type}`);
+            if (!res.ok) {
+                throw new Error(`Failed to fetch data: ${res.statusText}`);
+            }
+            const data = await res.json();
+            dispatch({type: 'quiz/setData', payload: data});
+        } catch (error) {
+            dispatch({type: 'quiz/setError'});
+            console.error("Error fetching data:", error);
+        }
     }
-
-
 }
+
+
+
 export const {changeDarkMode, setIsLoading, setData, setDifficulty, tick, setAnswer, setScore, nextAnswer, setFinish, reset} = questionSlice.actions;
 
 export default questionSlice.reducer
